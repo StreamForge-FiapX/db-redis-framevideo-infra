@@ -106,7 +106,7 @@ output "secrets_id" {
 }
 
 resource "aws_secretsmanager_secret" "db_credentials" {
-  name                    = "framevideo-dbcredential-redis"
+  name                    = "framevideo-dbcredential-redis-db"
   recovery_window_in_days = 0
 }
 
